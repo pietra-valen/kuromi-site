@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Universo Kuromi</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#atelier">Atelier DIY</a></li>
+    <li><a href="#beats">Beats</a></li>
+    <li><a href="wallpapers.html">Wallpapers</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section">
+  <div class="hero">
+
+    <div class="hero-text">
+      <h1>Universo Kuromi</h1>
+      <p>Criação, DIY e inspiração gótica kawaii 🖤</p>
+      <button class="cta-btn">Começar a Criar</button>
+    </div>
+
+    <img src="assets/kuromi-hero.png" alt="Kuromi" class="hero-img">
+
+  </div>
+</section>
+
+<!-- ATELIER -->
+<section id="atelier" class="section">
+  <h2>Atelier Kuromi DIY</h2>
+  <p class="subtitle">Escolha o que você quer criar</p>
+
+  <div class="atelier-grid">
+    <div class="atelier-card" data-modal="desenho">✏️<h3>Desenho</h3></div>
+    <div class="atelier-card" data-modal="artesanato">🧵<h3>Artesanato</h3></div>
+    <div class="atelier-card" data-modal="moda">👕<h3>Moda</h3></div>
+    <div class="atelier-card" data-modal="digital">💻<h3>Arte Digital</h3></div>
+    <div class="atelier-card" data-modal="papelaria">📒<h3>Papelaria</h3></div>
+    <div class="atelier-card" data-modal="cosplay">🖤<h3>Cosplay</h3></div>
+  </div>
+</section>
+
+<!-- BEATS -->
+<section id="beats" class="section">
+  <h2>Kuromi Beats</h2>
+  <p class="subtitle">Trilhas para criar no clima Kuromi</p>
+
+  <div class="beats-grid">
+    <div class="beats-card">
+      <iframe 
+        src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5Vy6DFOcx00"
+        width="100%" 
+        height="380" 
+        allow="encrypted-media">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- MODAIS -->
+<div class="modal" id="desenho">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>✏️ Desenho Kuromi</h3>
+    <p><b>Nível:</b> Iniciante • Médio • Avançado</p>
+    <ul>
+      <li>✦ Lápis / Caneta</li>
+      <li>✦ Papel ou tablet</li>
+      <li>✦ Referências Kuromi</li>
+    </ul>
+    <a href="https://youtube.com" target="_blank">▶ Tutoriais</a>
+  </div>
+</div>
+
+<div class="modal" id="artesanato">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>🧵 Artesanato</h3>
+    <p><b>Nível:</b> Iniciante • Médio</p>
+    <ul>
+      <li>✦ Feltro</li>
+      <li>✦ Linha e agulha</li>
+      <li>✦ Cola quente</li>
+    </ul>
+  </div>
+</div>
+
+<div class="modal" id="moda">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>👕 Moda Kuromi</h3>
+    <p><b>Nível:</b> Médio • Avançado</p>
+    <ul>
+      <li>✦ Roupas base</li>
+      <li>✦ Tinta tecido</li>
+      <li>✦ Patches</li>
+    </ul>
+  </div>
+</div>
+
+<div class="modal" id="digital">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>💻 Atelier Digital</h3>
+    <p><b>Nível:</b> Iniciante • Médio</p>
+    <ul>
+      <li>✦ Canva</li>
+      <li>✦ IbisPaint / Photoshop</li>
+      <li>✦ Templates Kuromi</li>
+    </ul>
+  </div>
+</div>
+
+<div class="modal" id="papelaria">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>📒 Papelaria</h3>
+    <p><b>Nível:</b> Iniciante</p>
+    <ul>
+      <li>✦ Papel fotográfico</li>
+      <li>✦ Impressora</li>
+      <li>✦ Tesoura</li>
+    </ul>
+  </div>
+</div>
+
+<div class="modal" id="cosplay">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>🖤 Cosplay</h3>
+    <p><b>Nível:</b> Avançado</p>
+    <ul>
+      <li>✦ EVA</li>
+      <li>✦ Tinta acrílica</li>
+      <li>✦ Acessórios</li>
+    </ul>
+  </div>
+</div>
+
+<!-- KUROMI FLUTUANTE (MOBILE) -->
+<img src="assets/kuromi-float.png" class="kuromi-float" alt="Kuromi flutuante">
+
+<script src="script.js"></script>
+</body>
+</html>
